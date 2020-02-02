@@ -1,0 +1,34 @@
+.mc-c-button {
+    background: @color-background-brand;
+    border: none;
+    border-radius: @border-radius-buttons; 
+    color: @color-white;
+    margin: @spacing-xs 0;
+    cursor: pointer;
+    padding: @spacing-s @spacing-xl;
+    &:hover {
+        background: @color-background-brand-dark;
+    }
+    &:active {
+        background: @color-background-brand-darker;
+    }
+}
+
+.mc-c-button--hover {
+    color: @color-white;
+    background-color: @color-background-brand-dark;
+}
+
+.mc-c-button--active {
+    color: @color-white;
+    background-color: @color-background-brand-darker;
+}
+
+.mc-c-button--disabled {
+    color: @color-white;
+    cursor: default;
+    background-color: @color-background-disabled;
+    &:hover,  &:active {
+        background: @color-background-disabled;
+    }
+}

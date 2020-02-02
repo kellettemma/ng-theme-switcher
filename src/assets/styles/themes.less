@@ -1,0 +1,18 @@
+// Settings
+@import (reference) '01-settings/design-theme/design-tokens.less';
+@import (multiple) 'styles.less';
+
+.code {
+    @import (reference) '01-settings/code-theme/design-tokens.less'; 
+    @import (multiple) 'styles.less';  
+
+    .mc-l-page-title {
+        background: url(../images/circles-dark.png) @color-background-accent no-repeat 0 0;
+        background-size: 14%;
+    }
+
+    .mc-c-select {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%23FFFFFF'><polygon points='0,0 100,0 50,50'/></svg>");
+    }
+}
+

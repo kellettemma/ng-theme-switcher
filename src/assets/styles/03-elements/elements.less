@@ -1,0 +1,39 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    color: @color-text-01;
+    font: @font-size-base @font-family-base;
+    line-height: 1.5;
+}
+
+h1 {
+    display: flex;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: @color-text-01; //todo #141413
+}
+
+a {
+    color: @color-text-01;
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid @color-border-base;
+}
+
+select {
+    -webkit-appearance: none;
+}

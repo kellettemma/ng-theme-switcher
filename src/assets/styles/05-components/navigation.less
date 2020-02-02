@@ -1,0 +1,94 @@
+.mc-c-nav {
+    display: flex;
+}
+
+.mc-c-nav__link {
+    color: @color-white;
+    margin-right: @spacing-lg;
+}
+
+.mc-c-icon {
+    fill: @color-text-01;
+    margin-right: @spacing-m;
+}
+
+.mc-c-icon--brand {
+    fill: @color-background-brand;//TODO: add token text
+}
+
+.mc-c-nav__link--primary {
+    padding-bottom: @spacing-m;
+    &:hover {
+        border-bottom: 4px solid @color-white;
+    }
+}
+
+.mc-c-nav__link--primary-active {
+    border-bottom: 4px solid @color-white;
+}
+
+.mc-c-nav--side {
+    background-color: @color-background-side-nav;
+    box-shadow: 0 0 9px 0 rgba(0,0,0,0.10);
+    min-width: 15rem;
+    z-index: 10;
+}
+
+.mc-c-nav__link--side {
+    color: @color-text-01;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: @spacing-base;
+    margin: 0;
+}
+
+.mc-c-nav__link--side-active {
+    text-shadow: 0 0 0.5px @color-text-01;
+    border-top: 1px solid @color-border-base;
+}
+
+.mc-c-nav__dropdown {
+    border-bottom: 1px solid @color-border-base;
+    font-size: 0.875rem;
+    list-style: none;
+    height: 0;
+    opacity: 0;
+    transform: translateY(-5%);
+}
+
+.mc-c-nav__dropdown--active {
+    height: auto;
+    opacity: 1;
+    margin: 0;
+    padding: 0 0 @spacing-s 0 @spacing-xl;
+    animation: slideDown 0.5s linear forwards;
+}
+
+.mc-c-nav__link--dropdown {
+    padding: @spacing-xxs @spacing-base;
+}
+
+.mc-c-nav__link--dropdown-side {
+    font-weight: bold;
+}
+
+.mc-c-nav__form-group {
+    border-bottom:1px solid @color-border-base;
+    display: flex;
+    padding: @spacing-base @spacing-xs;
+}
+
+@keyframes slideDown {
+    from {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-5%);
+    }
+    to { 
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }

@@ -1,0 +1,377 @@
+{
+  "aliases": {
+    "COLOR_BACKGROUND_MESSAGE_ICON": {
+      "value": "#FFFFFF"
+    },
+    "COLOR_BACKGROUND_RADIO": {
+      "value": "#141413"
+    },
+    "BORDER_RADIUS_BUTTONS": {
+      "value": "100px"
+    },
+    "COLOR_BORDER_BASE": {
+      "value": "#F0EFEB"
+    },
+    "COLOR_BACKGROUND_TOGGLE": {
+      "value": "#EBE7DE"
+    },
+    "COLOR_TAB_ACTIVE": {
+      "value": "#FF671B"
+    },
+    "COLOR_BACKGROUND_APP": {
+      "value": "#FFFFFF"
+    },
+    "COLOR_WHITE": {
+      "value": "#FFFFFF"
+    },
+    "SPACING_BASE": {
+      "value": "1rem"
+    },
+    "COLOR_BRAND_PRIMARY": {
+      "value": "#FF671B"
+    },
+    "SPACING_XL": {
+      "value": "2.5rem"
+    },
+    "COLOR_BACKGROUND_SIDE_NAV": {
+      "value": "#FFFFFF"
+    },
+    "SPACING_M": {
+      "value": "1.25rem"
+    },
+    "COLOR_BACKGROUND_DISABLED": {
+      "value": "#D3D3D3"
+    },
+    "COLOR_BACKGROUND_MESSAGE": {
+      "value": "#F8F7F5"
+    },
+    "COLOR_INVERSE": {
+      "value": "#FFFFFF"
+    },
+    "COLOR_BRAND_DARK_GREY": {
+      "value": "#141413"
+    },
+    "COLOR_BACKGROUND_FORM_ELEMENT": {
+      "value": "#FFFFFF"
+    },
+    "SPACING_XS": {
+      "value": "0.5rem"
+    },
+    "COLOR_TEXT_01": {
+      "value": "#141413"
+    },
+    "COLOR_TEXT_FORM_ELEMENT": {
+      "value": "#444340"
+    },
+    "SPACING_LG": {
+      "value": "2rem"
+    },
+    "SPACING_XXS": {
+      "value": "0.25rem"
+    },
+    "SPACING_S": {
+      "value": "0.75rem"
+    },
+    "BORDER_RADIUS_FORM_ELEMENT": {
+      "value": "100px"
+    },
+    "COLOR_BRAND_LIGHT_GREY": {
+      "value": "#E3DFD7"
+    },
+    "DURATION_BASE": {
+      "value": "500ms"
+    },
+    "FONT_FAMILY_BASE": {
+      "value": "Arial, Helvetica, sans-serif"
+    },
+    "COLOR_BACKGROUND_PAGE_TITLE": {
+      "value": "#F0EFEB"
+    },
+    "COLOR_BACKGROUND_MESSAGE_ICON_LIGHT": {
+      "value": "#FFFFFF"
+    },
+    "COLOR_BACKGROUND_SEARCH": {
+      "value": "#F3F3F3"
+    },
+    "FONT_SIZE_BASE": {
+      "value": "1rem"
+    },
+    "COLOR_BACKGROUND_ACCENT": {
+      "value": "#F8F7F5"
+    }
+  },
+  "props": {
+    "SPACING-M": {
+      "value": "1.25rem",
+      "type": "spacing",
+      "category": "spacing",
+      "comment": "Medium spacing.",
+      "originalValue": "{!SPACING_M}",
+      "name": "SPACING-M"
+    },
+    "SPACING-XS": {
+      "value": "0.5rem",
+      "type": "spacing",
+      "category": "spacing",
+      "comment": "Extra small spacing.",
+      "originalValue": "{!SPACING_XS}",
+      "name": "SPACING-XS"
+    },
+    "SPACING-LG": {
+      "value": "2rem",
+      "type": "spacing",
+      "category": "spacing",
+      "comment": "Large spacing.",
+      "originalValue": "{!SPACING_LG}",
+      "name": "SPACING-LG"
+    },
+    "COLOR-BRAND-LIGHT-GREY": {
+      "value": "#E3DFD7",
+      "type": "color",
+      "category": "color",
+      "comment": "Light grey brand colour",
+      "originalValue": "{!COLOR_BRAND_LIGHT_GREY}",
+      "name": "COLOR-BRAND-LIGHT-GREY"
+    },
+    "COLOR-BRAND-DARK-GREY": {
+      "value": "#141413",
+      "type": "color",
+      "category": "color",
+      "comment": "Dark grey brand colour.",
+      "originalValue": "{!COLOR_BRAND_DARK_GREY}",
+      "name": "COLOR-BRAND-DARK-GREY"
+    },
+    "COLOR-BACKGROUND-RADIO": {
+      "value": "#141413",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color for radio checked mark",
+      "originalValue": "{!COLOR_BACKGROUND_RADIO}",
+      "name": "COLOR-BACKGROUND-RADIO"
+    },
+    "BORDER-RADIUS-BUTTONS": {
+      "value": "100px",
+      "type": "number",
+      "category": "border-radius",
+      "comment": "Small border radius",
+      "originalValue": "{!BORDER_RADIUS_BUTTONS}",
+      "name": "BORDER-RADIUS-BUTTONS"
+    },
+    "COLOR-BORDER-BASE": {
+      "value": "#F0EFEB",
+      "type": "color",
+      "category": "border-color",
+      "comment": "Default border color.",
+      "originalValue": "{!COLOR_BORDER_BASE}",
+      "name": "COLOR-BORDER-BASE"
+    },
+    "COLOR-BACKGROUND-FORM-ELEMENT": {
+      "value": "#FFFFFF",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Form Element Background color",
+      "originalValue": "{!COLOR_BACKGROUND_FORM_ELEMENT}",
+      "name": "COLOR-BACKGROUND-FORM-ELEMENT"
+    },
+    "COLOR-TAB-ACTIVE": {
+      "value": "#FF671B",
+      "type": "color",
+      "category": "text-color",
+      "comment": "Brand text color.",
+      "originalValue": "{!COLOR_TAB_ACTIVE}",
+      "name": "COLOR-TAB-ACTIVE"
+    },
+    "SPACING-XXS": {
+      "value": "0.25rem",
+      "type": "spacing",
+      "category": "spacing",
+      "comment": "Extra Extra small spacing.",
+      "originalValue": "{!SPACING_XXS}",
+      "name": "SPACING-XXS"
+    },
+    "COLOR-BACKGROUND-TOGGLE": {
+      "value": "#EBE7DE",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color of toggle switch",
+      "originalValue": "{!COLOR_BACKGROUND_TOGGLE}",
+      "name": "COLOR-BACKGROUND-TOGGLE"
+    },
+    "SPACING-S": {
+      "value": "0.75rem",
+      "type": "spacing",
+      "category": "spacing",
+      "comment": "Small spacing.",
+      "originalValue": "{!SPACING_S}",
+      "name": "SPACING-S"
+    },
+    "COLOR-TEXT-FORM-ELEMENT": {
+      "value": "#444340",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Text color for form elements",
+      "originalValue": "{!COLOR_TEXT_FORM_ELEMENT}",
+      "name": "COLOR-TEXT-FORM-ELEMENT"
+    },
+    "DURATION-BASE": {
+      "value": "500ms",
+      "type": "animation",
+      "category": "animation",
+      "comment": "Base animation length.",
+      "originalValue": "{!DURATION_BASE}",
+      "name": "DURATION-BASE"
+    },
+    "COLOR-BACKGROUND-APP": {
+      "value": "#FFFFFF",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color for the application",
+      "originalValue": "{!COLOR_BACKGROUND_APP}",
+      "name": "COLOR-BACKGROUND-APP"
+    },
+    "BORDER-RADIUS-FORM-ELEMENT": {
+      "value": "100px",
+      "type": "number",
+      "category": "border-radius",
+      "comment": "Medium border radius",
+      "originalValue": "{!BORDER_RADIUS_FORM_ELEMENT}",
+      "name": "BORDER-RADIUS-FORM-ELEMENT"
+    },
+    "COLOR-BACKGROUND-PAGE-TITLE": {
+      "value": "#F0EFEB",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color of page title",
+      "originalValue": "{!COLOR_BACKGROUND_PAGE_TITLE}",
+      "name": "COLOR-BACKGROUND-PAGE-TITLE"
+    },
+    "COLOR-BORDER-BRAND": {
+      "value": "#FF671B",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Primary Brand background color",
+      "originalValue": "{!COLOR_BRAND_PRIMARY}",
+      "name": "COLOR-BORDER-BRAND"
+    },
+    "COLOR-BACKGROUND-SIDE_NAV": {
+      "value": "#FFFFFF",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color of side navigation",
+      "originalValue": "{!COLOR_BACKGROUND_SIDE_NAV}",
+      "name": "COLOR-BACKGROUND-SIDE_NAV"
+    },
+    "COLOR-BACKGROUND-DISABLED": {
+      "value": "#D3D3D3",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color for disabled elements",
+      "originalValue": "{!COLOR_BACKGROUND_DISABLED}",
+      "name": "COLOR-BACKGROUND-DISABLED"
+    },
+    "COLOR-BACKGROUND-MESSAGE": {
+      "value": "#F8F7F5",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color of message/page notification",
+      "originalValue": "{!COLOR_BACKGROUND_MESSAGE}",
+      "name": "COLOR-BACKGROUND-MESSAGE"
+    },
+    "COLOR-BACKGROUND-BRAND": {
+      "value": "#FF671B",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Primary Brand background color",
+      "originalValue": "{!COLOR_BRAND_PRIMARY}",
+      "name": "COLOR-BACKGROUND-BRAND"
+    },
+    "COLOR-BACKGROUND-MESSAGE-ICON": {
+      "value": "#FFFFFF",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color of message/page notification icon",
+      "originalValue": "{!COLOR_BACKGROUND_MESSAGE_ICON}",
+      "name": "COLOR-BACKGROUND-MESSAGE-ICON"
+    },
+    "COLOR-TEXT-01": {
+      "value": "#141413",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Text colour for application",
+      "originalValue": "{!COLOR_TEXT_01}",
+      "name": "COLOR-TEXT-01"
+    },
+    "COLOR-TEXT-INVERSE": {
+      "value": "#FFFFFF",
+      "type": "color",
+      "category": "text-color",
+      "comment": "Text color used to stand out on inverse background.",
+      "originalValue": "{!COLOR_INVERSE}",
+      "name": "COLOR-TEXT-INVERSE"
+    },
+    "SPACING-BASE": {
+      "value": "1rem",
+      "type": "spacing",
+      "category": "spacing",
+      "comment": "Base spacing.",
+      "originalValue": "{!SPACING_BASE}",
+      "name": "SPACING-BASE"
+    },
+    "FONT-FAMILY-BASE": {
+      "value": "Arial, Helvetica, sans-serif",
+      "type": "font",
+      "category": "font-family",
+      "comment": "Base font family.",
+      "originalValue": "{!FONT_FAMILY_BASE}",
+      "name": "FONT-FAMILY-BASE"
+    },
+    "COLOR-BACKGROUND-MESSAGE-ICON-LIGHT": {
+      "value": "#FFFFFF",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color of message/page notification icon",
+      "originalValue": "{!COLOR_BACKGROUND_MESSAGE_ICON_LIGHT}",
+      "name": "COLOR-BACKGROUND-MESSAGE-ICON-LIGHT"
+    },
+    "COLOR-BACKGROUND-SEARCH": {
+      "value": "#F3F3F3",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Search Form Element Background color",
+      "originalValue": "{!COLOR_BACKGROUND_SEARCH}",
+      "name": "COLOR-BACKGROUND-SEARCH"
+    },
+    "SPACING-XL": {
+      "value": "2.5rem",
+      "type": "spacing",
+      "category": "spacing",
+      "comment": "Extra Large spacing.",
+      "originalValue": "{!SPACING_XL}",
+      "name": "SPACING-XL"
+    },
+    "COLOR-WHITE": {
+      "value": "#FFFFFF",
+      "type": "color",
+      "category": "color",
+      "comment": "White",
+      "originalValue": "{!COLOR_WHITE}",
+      "name": "COLOR-WHITE"
+    },
+    "FONT-SIZE-BASE": {
+      "value": "1rem",
+      "type": "font",
+      "category": "font-size",
+      "comment": "Base font size.",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "FONT-SIZE-BASE"
+    },
+    "COLOR-BACKGROUND-ACCENT": {
+      "value": "#F8F7F5",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Accent Background color",
+      "originalValue": "{!COLOR_BACKGROUND_ACCENT}",
+      "name": "COLOR-BACKGROUND-ACCENT"
+    }
+  }
+}

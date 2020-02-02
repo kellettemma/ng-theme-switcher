@@ -1,0 +1,73 @@
+.mc-c-tabs {
+    border-bottom: 1px solid @color-border-base;
+    display: flex;
+    list-style: none;
+    margin: @spacing-base 0 0 0;
+    padding: 0;
+}
+
+.mc-c-tab__link {
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: @spacing-base @spacing-xl @spacing-m @spacing-xl;
+    letter-spacing: 1.65px;
+    &:hover {
+        color: @color-tab-active;
+        border-bottom: 2px solid @color-tab-active;;
+    }
+}
+
+.mc-c-tab__link-active {
+    color: @color-tab-active;
+    border-bottom: 2px solid @color-tab-active;;
+}
+
+.mc-c-tabs--title {
+    padding: @spacing-m 7rem 0; 
+    justify-content: space-between;
+    margin: 0;
+}
+.mc-c-tabs__link--title {
+    display: flex;
+    margin-right: @spacing-base;
+    padding: 0 0 @spacing-m 0;
+    &:hover {
+        border-bottom: 2px solid @color-text-01;
+        color: @color-text-01;
+    }
+}
+.mc-c-tabs__link--title-active {
+    border-bottom: 2px solid @color-text-01;
+}
+
+.mc-c-tab__panel {
+    border: 1px solid @color-border-base;
+    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: @spacing-xl; 
+}
+
+.mc-c-tab__panel-head {
+    background-color: @color-background-accent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: @spacing-m @spacing-base;
+}
+
+.mc-c-tab__panel-icon {
+    background: @color-white;
+    border: 1px solid @color-border-base;
+    border-radius: 50%;
+    color: @color-brand-light-grey;
+    padding: @spacing-xxs;
+    
+}

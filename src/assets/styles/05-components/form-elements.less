@@ -1,0 +1,73 @@
+.mc-c-form-element {
+    background-color: @color-background-form-element;
+    border: none;
+    border-radius: @border-radius-form-element;
+    color: @color-text-form-element;
+    padding: @spacing-s; 
+    &::placeholder {
+        color: @color-text-form-element;  
+    }
+}
+
+.mc-c-search__icon {
+    background-color: @color-background-form-element;
+    border-radius: @border-radius-form-element 0 0  @border-radius-form-element;
+    display: flex;
+    fill: @color-text-form-element;
+    padding-right: 0;
+}
+
+.mc-c-search__field {
+    border-radius: 0 @border-radius-form-element @border-radius-form-element 0;
+}
+
+.mc-c-select {
+    background-color: @color-background-form-element;
+    border: none;
+    border-radius: @border-radius-form-element;
+    margin: 0 @spacing-lg 0 @spacing-base;
+    padding: @spacing-xs @spacing-base;
+    color: @color-text-01;
+    cursor: pointer;
+    display: flex;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%23171717'><polygon points='0,0 100,0 50,50'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right @spacing-base top 0.875rem;
+    background-size: 0.75rem auto, 100%;
+    min-width: 5.5rem;
+}
+
+.mc-c-radio-group {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.mc-c-radio__label {
+    display: inline-flex;
+    position: relative;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.mc-c-radio__label:before {
+    border: 1px solid @color-border-brand;
+    background-color: transparent;
+    content: "";
+    margin: (@spacing-xxs/2) @spacing-xxs 0 0; 
+    min-width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 50%;
+}
+
+.mc-c-radio:checked + .mc-c-radio__label:after {
+    content: "";
+    position: absolute;
+    background: @color-background-radio;
+    top: 6px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}

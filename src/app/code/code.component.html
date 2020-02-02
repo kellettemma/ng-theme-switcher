@@ -1,0 +1,97 @@
+<nav class="mc-c-tabs mc-c-tabs--title">
+  <ul class="mc-c-nav mc-u-list--reset">
+    <li><a class="mc-c-tabs__link--title mc-c-tabs__link--title-active" href="#">Preview</a></li>
+    <li><a class="mc-c-tabs__link--title" href="#">Parameters</a></li>
+    <li><a class="mc-c-tabs__link--title" href="#">Accessibility</a></li>
+  </ul>
+  </nav>
+  <section class="mc-l-demo">
+  <p>Let users perform a single, clearly expressed action. We have a wide variety of button sizes, styles and types, all designed for specific contexts.</p>
+  <ul class="mc-c-tabs">
+    <li><a class="mc-c-tab__link mc-c-tab__link-active" href="#">
+      <i class="small material-icons mc-u-margin-right--xs">public</i>Web</a></li>
+  </ul>
+    <div class="mc-c-tab__panel-head">
+    <button class="mc-c-button">Primary</button>
+    </div>
+    <div class="mc-c-tab__panel mc-u-margin-bottom--lg">
+    <code>
+      <button>Primary</button>
+    </code>
+  </div>
+
+  <ul role="radiogroup" class="mc-u-list--reset mc-c-radio-group mc-u-margin-bottom--s">
+    <li class="mc-u-margin-right--base">
+        <input class="mc-c-radio mc-u-element--hidden" name="package" type="radio" id="package-group-0" value="npm">
+        <label class="mc-c-radio__label" for="package-group-0">
+          <img src="../../assets/images/npm.png" alt="npm logo">
+        </label>
+    </li>
+    <li class="mc-u-margin-right--base">
+        <input class="mc-c-radio mc-u-element--hidden" name="package" type="radio" id="package-group-1" value="yarn">
+        <label class="mc-c-radio__label" for="package-group-1">
+          <img src="../../assets/images/yarn.png" alt="yarn logo">
+        </label>
+    </li>
+</ul>
+
+<div class="mc-u-space-between">
+  <article class="mc-c-message mc-c-message--light">
+    <p>npm add @mcds/mc.button.components.buttons</p>
+    <i class="small material-icons mc-c-message__icon mc-c-message__icon--light">filter_none</i>
+  </article>
+  <p class="mc-u-vertically-align">
+    <img class="mc-u-margin-right--xs" src="../../assets/images/checkmark.png" alt="checkmark"> WCAG AA Conformant Code</p>
+</div>
+
+<div class="mc-u-space-between">
+  <p>Web component support all major JS frameworks</p>
+  <p class="mc-u-vertically-align mc-u-margin-right--s">
+    <img class="mc-u-margin-right--xs" src="../../assets/images/angular.png" alt="angular logo"> Angular >6</p>
+</div>
+
+<hr/>
+  <h3>API Props</h3>
+  <h4 class="mc-u-margin-top--lg mc-u-margin-bottom--s">buttonType</h4>
+  <p class="mc-u-margin-top--none">Determines the button's HTML type</p>
+  <ul>
+    <li>button (default)</li>
+    <li>submit</li>
+    <li>reset</li>
+  </ul>
+
+  <h4 class="mc-u-margin-top--lg mc-u-margin-bottom--s">type</h4>
+  <p class="mc-u-margin-top--none">Determines what type appears on the button</p>
+  <ul>
+    <li>primary (default)</li>
+    <li>secondary</li>
+    <li>destroy</li>
+    <li>confirm</li>
+    <li>subtle</li>
+    <li>cancel</li>
+  </ul>
+
+  <h4 class="mc-u-margin-top--lg mc-u-margin-bottom--s">size</h4>
+    <p class="mc-u-margin-top--none">Determines the button's size</p>
+  <ul>
+    <li>small</li>
+    <li>medium (default)</li>
+    <li>large</li>
+  </ul>
+
+  <h4 class="mc-u-margin-top--lg mc-u-margin-bottom--s">status</h4>
+  <p class="mc-u-margin-top--none">Adds a status indicator to the button</p>
+  <ul>
+    <li>spinning - Adds a spinner next to the text</li>
+    <li>success - Makes the button green and adds a checkmark next to the text</li>
+    <li>failure - Makes the button red and adds a X next to the text</li>
+  </ul>
+
+  <article class="mc-c-message mc-l-message">
+    <p>Tell us, is this content helpful?</p>
+    <div>
+      <img class="mc-c-message__icon" src="../../assets/images/thumbs-up.png" alt="thumbs up emoji" />
+      <img class="mc-c-message__icon" src="../../assets/images/thumbs-down.png" alt="thumbs up emoji" />
+    </div>
+  </article>
+</section>
